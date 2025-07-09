@@ -8,10 +8,10 @@ import { toast, ToastContainer } from "react-toastify";
 const firebaseConfig = {
     apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: "netflixclone-23848",
-  storageBucket: "netflixclone-23848.firebasestorage.app",
-  messagingSenderId: "555568635821",
-  appId: "1:555568635821:web:f7e46f81ac0e8833b20b24"
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
 
